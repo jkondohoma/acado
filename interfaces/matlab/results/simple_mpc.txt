@@ -1,0 +1,304 @@
+*** SIMULATION LOOP NO. 1 (starting at time 0.000) ***
+sqp it | qp its |       kkt tol |       obj val |     merit val |      ls param | 
+     1 |      0 |  4.851235e-11 |  2.507026e-04 |  2.507026e-04 |  1.000000e+00 | 
+     2 |      0 |  1.807955e-11 |  2.137386e-04 |  2.137386e-04 |  1.000000e+00 | 
+
+*** SIMULATION LOOP NO. 2 (starting at time 0.050) ***
+sqp it | qp its |       kkt tol |       obj val |     merit val |      ls param | 
+     1 |      0 |  6.889507e-11 |  1.848812e-04 |  1.848812e-04 |  1.000000e+00 | 
+     2 |      0 |  1.211657e-11 |  1.758513e-04 |  1.758513e-04 |  1.000000e+00 | 
+
+*** SIMULATION LOOP NO. 3 (starting at time 0.100) ***
+sqp it | qp its |       kkt tol |       obj val |     merit val |      ls param | 
+     1 |      0 |  3.019466e-11 |  1.508795e-04 |  1.508795e-04 |  1.000000e+00 | 
+     2 |      0 |  9.600015e-12 |  1.441816e-04 |  1.441816e-04 |  1.000000e+00 | 
+
+*** SIMULATION LOOP NO. 4 (starting at time 0.150) ***
+sqp it | qp its |       kkt tol |       obj val |     merit val |      ls param | 
+     1 |      0 |  1.420794e-11 |  1.020435e-04 |  1.020435e-04 |  1.000000e+00 | 
+     2 |      0 |  4.158229e-12 |  1.007742e-04 |  1.007743e-04 |  1.000000e+00 | 
+
+*** SIMULATION LOOP NO. 5 (starting at time 0.200) ***
+sqp it | qp its |       kkt tol |       obj val |     merit val |      ls param | 
+     1 |      0 |  1.660665e-11 |  6.457638e-05 |  6.457640e-05 |  1.000000e+00 | 
+     2 |      0 |  8.413447e-13 |  6.319414e-05 |  6.319414e-05 |  1.000000e+00 | 
+
+*** SIMULATION LOOP NO. 6 (starting at time 0.250) ***
+sqp it | qp its |       kkt tol |       obj val |     merit val |      ls param | 
+     1 |      0 |  5.950379e-12 |  4.118554e-05 |  4.118555e-05 |  1.000000e+00 | 
+     2 |      0 |  8.328134e-13 |  3.967551e-05 |  3.967551e-05 |  1.000000e+00 | 
+
+*** SIMULATION LOOP NO. 7 (starting at time 0.300) ***
+sqp it | qp its |       kkt tol |       obj val |     merit val |      ls param | 
+     1 |      0 |  2.574448e-11 |  2.703236e-05 |  2.703240e-05 |  1.000000e+00 | 
+     2 |      0 |  1.872680e-12 |  2.575445e-05 |  2.575445e-05 |  1.000000e+00 | 
+
+*** SIMULATION LOOP NO. 8 (starting at time 0.350) ***
+sqp it | qp its |       kkt tol |       obj val |     merit val |      ls param | 
+     1 |      0 |  3.457817e-12 |  2.004752e-05 |  2.004752e-05 |  1.000000e+00 | 
+     2 |      0 |  2.258533e-12 |  1.929227e-05 |  1.929227e-05 |  1.000000e+00 | 
+
+*** SIMULATION LOOP NO. 9 (starting at time 0.400) ***
+sqp it | qp its |       kkt tol |       obj val |     merit val |      ls param | 
+     1 |      0 |  6.714772e-12 |  1.563976e-05 |  1.563977e-05 |  1.000000e+00 | 
+     2 |      0 |  1.054594e-12 |  1.517362e-05 |  1.517363e-05 |  1.000000e+00 | 
+
+*** SIMULATION LOOP NO. 10 (starting at time 0.450) ***
+sqp it | qp its |       kkt tol |       obj val |     merit val |      ls param | 
+     1 |      0 |  8.059923e-13 |  1.259301e-05 |  1.259301e-05 |  1.000000e+00 | 
+     2 |      0 |  1.510249e-12 |  1.239889e-05 |  1.239889e-05 |  1.000000e+00 | 
+
+*** SIMULATION LOOP NO. 11 (starting at time 0.500) ***
+sqp it | qp its |       kkt tol |       obj val |     merit val |      ls param | 
+     1 |      0 |  1.803739e-12 |  1.020122e-05 |  1.020123e-05 |  1.000000e+00 | 
+     2 |      0 |  4.352959e-13 |  1.007140e-05 |  1.007140e-05 |  1.000000e+00 | 
+
+*** SIMULATION LOOP NO. 12 (starting at time 0.550) ***
+sqp it | qp its |       kkt tol |       obj val |     merit val |      ls param | 
+     1 |      0 |  8.397527e-13 |  8.164567e-06 |  8.164568e-06 |  1.000000e+00 | 
+     2 |      0 |  2.301768e-13 |  8.077053e-06 |  8.077053e-06 |  1.000000e+00 | 
+
+*** SIMULATION LOOP NO. 13 (starting at time 0.600) ***
+sqp it | qp its |       kkt tol |       obj val |     merit val |      ls param | 
+     1 |      0 |  4.468180e-13 |  6.431704e-06 |  6.431704e-06 |  1.000000e+00 | 
+     2 |      0 |  2.299342e-13 |  6.354611e-06 |  6.354611e-06 |  1.000000e+00 | 
+
+*** SIMULATION LOOP NO. 14 (starting at time 0.650) ***
+sqp it | qp its |       kkt tol |       obj val |     merit val |      ls param | 
+     1 |      0 |  4.680915e-13 |  4.973920e-06 |  4.973921e-06 |  1.000000e+00 | 
+     2 |      0 |  6.289438e-13 |  4.906178e-06 |  4.906179e-06 |  1.000000e+00 | 
+
+*** SIMULATION LOOP NO. 15 (starting at time 0.700) ***
+sqp it | qp its |       kkt tol |       obj val |     merit val |      ls param | 
+     1 |      0 |  1.225332e-13 |  3.818191e-06 |  3.818191e-06 |  1.000000e+00 | 
+     2 |      0 |  1.472645e-13 |  3.759124e-06 |  3.759124e-06 |  1.000000e+00 | 
+
+*** SIMULATION LOOP NO. 16 (starting at time 0.750) ***
+sqp it | qp its |       kkt tol |       obj val |     merit val |      ls param | 
+     1 |      0 |  1.469754e-13 |  2.919837e-06 |  2.919838e-06 |  1.000000e+00 | 
+     2 |      0 |  2.464891e-13 |  2.870120e-06 |  2.870120e-06 |  1.000000e+00 | 
+
+*** SIMULATION LOOP NO. 17 (starting at time 0.800) ***
+sqp it | qp its |       kkt tol |       obj val |     merit val |      ls param | 
+     1 |      0 |  5.866412e-14 |  2.243928e-06 |  2.243928e-06 |  1.000000e+00 | 
+     2 |      0 |  2.239960e-13 |  2.204839e-06 |  2.204840e-06 |  1.000000e+00 | 
+
+*** SIMULATION LOOP NO. 18 (starting at time 0.850) ***
+sqp it | qp its |       kkt tol |       obj val |     merit val |      ls param | 
+     1 |      0 |  1.323281e-13 |  1.733749e-06 |  1.733750e-06 |  1.000000e+00 | 
+     2 |      0 |  2.341777e-13 |  1.703514e-06 |  1.703514e-06 |  1.000000e+00 | 
+
+*** SIMULATION LOOP NO. 19 (starting at time 0.900) ***
+sqp it | qp its |       kkt tol |       obj val |     merit val |      ls param | 
+     1 |      0 |  1.010398e-13 |  1.346939e-06 |  1.346939e-06 |  1.000000e+00 | 
+     2 |      0 |  2.003823e-13 |  1.324426e-06 |  1.324426e-06 |  1.000000e+00 | 
+
+*** SIMULATION LOOP NO. 20 (starting at time 0.950) ***
+sqp it | qp its |       kkt tol |       obj val |     merit val |      ls param | 
+     1 |      0 |  6.500629e-14 |  1.049986e-06 |  1.049986e-06 |  1.000000e+00 | 
+     2 |      0 |  1.446230e-13 |  1.032994e-06 |  1.032995e-06 |  1.000000e+00 | 
+
+*** SIMULATION LOOP NO. 21 (starting at time 1.000) ***
+sqp it | qp its |       kkt tol |       obj val |     merit val |      ls param | 
+     1 |      0 |  7.549304e-14 |  8.191502e-07 |  8.191503e-07 |  1.000000e+00 | 
+     2 |      0 |  1.720945e-13 |  8.062774e-07 |  8.062776e-07 |  1.000000e+00 | 
+
+*** SIMULATION LOOP NO. 22 (starting at time 1.050) ***
+sqp it | qp its |       kkt tol |       obj val |     merit val |      ls param | 
+     1 |      0 |  5.889634e-14 |  6.387805e-07 |  6.387805e-07 |  1.000000e+00 | 
+     2 |      0 |  1.074172e-13 |  6.288430e-07 |  6.288431e-07 |  1.000000e+00 | 
+
+*** SIMULATION LOOP NO. 23 (starting at time 1.100) ***
+sqp it | qp its |       kkt tol |       obj val |     merit val |      ls param | 
+     1 |      0 |  6.659479e-14 |  4.973103e-07 |  4.973104e-07 |  1.000000e+00 | 
+     2 |      0 |  1.030849e-13 |  4.895486e-07 |  4.895487e-07 |  1.000000e+00 | 
+
+*** SIMULATION LOOP NO. 24 (starting at time 1.150) ***
+sqp it | qp its |       kkt tol |       obj val |     merit val |      ls param | 
+     1 |      0 |  5.802341e-14 |  3.866761e-07 |  3.866762e-07 |  1.000000e+00 | 
+     2 |      0 |  8.260622e-14 |  3.805845e-07 |  3.805846e-07 |  1.000000e+00 | 
+
+*** SIMULATION LOOP NO. 25 (starting at time 1.200) ***
+sqp it | qp its |       kkt tol |       obj val |     merit val |      ls param | 
+     1 |      0 |  4.212987e-14 |  3.003552e-07 |  3.003552e-07 |  1.000000e+00 | 
+     2 |      0 |  6.840375e-14 |  2.955630e-07 |  2.955631e-07 |  1.000000e+00 | 
+
+*** SIMULATION LOOP NO. 26 (starting at time 1.250) ***
+sqp it | qp its |       kkt tol |       obj val |     merit val |      ls param | 
+     1 |      0 |  3.233328e-14 |  2.332520e-07 |  2.332520e-07 |  1.000000e+00 | 
+     2 |      0 |  7.704115e-14 |  2.295004e-07 |  2.295005e-07 |  1.000000e+00 | 
+
+*** SIMULATION LOOP NO. 27 (starting at time 1.300) ***
+sqp it | qp its |       kkt tol |       obj val |     merit val |      ls param | 
+     1 |      0 |  3.002156e-14 |  1.811829e-07 |  1.811829e-07 |  1.000000e+00 | 
+     2 |      0 |  5.123217e-14 |  1.782537e-07 |  1.782538e-07 |  1.000000e+00 | 
+
+*** SIMULATION LOOP NO. 28 (starting at time 1.350) ***
+sqp it | qp its |       kkt tol |       obj val |     merit val |      ls param | 
+     1 |      0 |  2.459990e-14 |  1.408052e-07 |  1.408052e-07 |  1.000000e+00 | 
+     2 |      0 |  6.012562e-14 |  1.385285e-07 |  1.385285e-07 |  1.000000e+00 | 
+
+*** SIMULATION LOOP NO. 29 (starting at time 1.400) ***
+sqp it | qp its |       kkt tol |       obj val |     merit val |      ls param | 
+     1 |      0 |  2.644518e-14 |  1.094835e-07 |  1.094835e-07 |  1.000000e+00 | 
+     2 |      0 |  4.006463e-14 |  1.077161e-07 |  1.077161e-07 |  1.000000e+00 | 
+
+*** SIMULATION LOOP NO. 30 (starting at time 1.450) ***
+sqp it | qp its |       kkt tol |       obj val |     merit val |      ls param | 
+     1 |      0 |  2.070172e-14 |  8.515822e-08 |  8.515825e-08 |  1.000000e+00 | 
+     2 |      0 |  4.387904e-14 |  8.378754e-08 |  8.378759e-08 |  1.000000e+00 | 
+
+*** SIMULATION LOOP NO. 31 (starting at time 1.500) ***
+sqp it | qp its |       kkt tol |       obj val |     merit val |      ls param | 
+     1 |      0 |  1.630798e-14 |  6.625068e-08 |  6.625070e-08 |  1.000000e+00 | 
+     2 |      0 |  3.179874e-14 |  6.518597e-08 |  6.518601e-08 |  1.000000e+00 | 
+
+*** SIMULATION LOOP NO. 32 (starting at time 1.550) ***
+sqp it | qp its |       kkt tol |       obj val |     merit val |      ls param | 
+     1 |      0 |  1.460216e-14 |  5.154122e-08 |  5.154124e-08 |  1.000000e+00 | 
+     2 |      0 |  3.324484e-14 |  5.071341e-08 |  5.071345e-08 |  1.000000e+00 | 
+
+*** SIMULATION LOOP NO. 33 (starting at time 1.600) ***
+sqp it | qp its |       kkt tol |       obj val |     merit val |      ls param | 
+     1 |      0 |  2.117944e-14 |  4.009515e-08 |  4.009517e-08 |  1.000000e+00 | 
+     2 |      0 |  3.572346e-14 |  3.945097e-08 |  3.945102e-08 |  1.000000e+00 | 
+
+*** SIMULATION LOOP NO. 34 (starting at time 1.650) ***
+sqp it | qp its |       kkt tol |       obj val |     merit val |      ls param | 
+     1 |      0 |  9.676131e-15 |  3.118817e-08 |  3.118818e-08 |  1.000000e+00 | 
+     2 |      0 |  2.242541e-14 |  3.068645e-08 |  3.068647e-08 |  1.000000e+00 | 
+
+*** SIMULATION LOOP NO. 35 (starting at time 1.700) ***
+sqp it | qp its |       kkt tol |       obj val |     merit val |      ls param | 
+     1 |      0 |  8.461811e-15 |  2.425842e-08 |  2.425843e-08 |  1.000000e+00 | 
+     2 |      0 |  2.066564e-14 |  2.386760e-08 |  2.386762e-08 |  1.000000e+00 | 
+
+*** SIMULATION LOOP NO. 36 (starting at time 1.750) ***
+sqp it | qp its |       kkt tol |       obj val |     merit val |      ls param | 
+     1 |      0 |  1.205720e-14 |  1.886826e-08 |  1.886828e-08 |  1.000000e+00 | 
+     2 |      0 |  1.728418e-14 |  1.856385e-08 |  1.856387e-08 |  1.000000e+00 | 
+
+*** SIMULATION LOOP NO. 37 (starting at time 1.800) ***
+sqp it | qp its |       kkt tol |       obj val |     merit val |      ls param | 
+     1 |      0 |  5.159284e-15 |  1.467628e-08 |  1.467629e-08 |  1.000000e+00 | 
+     2 |      0 |  1.982816e-14 |  1.443925e-08 |  1.443927e-08 |  1.000000e+00 | 
+
+*** SIMULATION LOOP NO. 38 (starting at time 1.850) ***
+sqp it | qp its |       kkt tol |       obj val |     merit val |      ls param | 
+     1 |      0 |  1.021773e-14 |  1.141638e-08 |  1.141639e-08 |  1.000000e+00 | 
+     2 |      0 |  1.800261e-14 |  1.123186e-08 |  1.123188e-08 |  1.000000e+00 | 
+
+*** SIMULATION LOOP NO. 39 (starting at time 1.900) ***
+sqp it | qp its |       kkt tol |       obj val |     merit val |      ls param | 
+     1 |      0 |  7.439351e-15 |  8.881163e-09 |  8.881172e-09 |  1.000000e+00 | 
+     2 |      0 |  1.327747e-14 |  8.737540e-09 |  8.737556e-09 |  1.000000e+00 | 
+
+*** SIMULATION LOOP NO. 40 (starting at time 1.950) ***
+sqp it | qp its |       kkt tol |       obj val |     merit val |      ls param | 
+     1 |      0 |  7.348946e-15 |  6.909351e-09 |  6.909359e-09 |  1.000000e+00 | 
+     2 |      0 |  1.212488e-14 |  6.797572e-09 |  6.797586e-09 |  1.000000e+00 | 
+
+*** SIMULATION LOOP NO. 41 (starting at time 2.000) ***
+sqp it | qp its |       kkt tol |       obj val |     merit val |      ls param | 
+     1 |      0 |  3.919378e-15 |  5.375561e-09 |  5.375566e-09 |  1.000000e+00 | 
+     2 |      0 |  7.995729e-15 |  5.288550e-09 |  5.288559e-09 |  1.000000e+00 | 
+
+*** SIMULATION LOOP NO. 42 (starting at time 2.050) ***
+sqp it | qp its |       kkt tol |       obj val |     merit val |      ls param | 
+     1 |      0 |  4.451024e-15 |  4.182379e-09 |  4.182385e-09 |  1.000000e+00 | 
+     2 |      0 |  1.021117e-14 |  4.114641e-09 |  4.114654e-09 |  1.000000e+00 | 
+
+*** SIMULATION LOOP NO. 43 (starting at time 2.100) ***
+sqp it | qp its |       kkt tol |       obj val |     merit val |      ls param | 
+     1 |      0 |  5.174979e-15 |  3.254106e-09 |  3.254112e-09 |  1.000000e+00 | 
+     2 |      0 |  7.337299e-15 |  3.201362e-09 |  3.201371e-09 |  1.000000e+00 | 
+
+*** SIMULATION LOOP NO. 44 (starting at time 2.150) ***
+sqp it | qp its |       kkt tol |       obj val |     merit val |      ls param | 
+     1 |      0 |  3.597566e-15 |  2.531886e-09 |  2.531890e-09 |  1.000000e+00 | 
+     2 |      0 |  6.069870e-15 |  2.490822e-09 |  2.490829e-09 |  1.000000e+00 | 
+
+*** SIMULATION LOOP NO. 45 (starting at time 2.200) ***
+sqp it | qp its |       kkt tol |       obj val |     merit val |      ls param | 
+     1 |      0 |  3.412733e-15 |  1.969992e-09 |  1.969996e-09 |  1.000000e+00 | 
+     2 |      0 |  5.561123e-15 |  1.938019e-09 |  1.938025e-09 |  1.000000e+00 | 
+
+*** SIMULATION LOOP NO. 46 (starting at time 2.250) ***
+sqp it | qp its |       kkt tol |       obj val |     merit val |      ls param | 
+     1 |      0 |  2.019818e-15 |  1.532830e-09 |  1.532832e-09 |  1.000000e+00 | 
+     2 |      0 |  4.396773e-15 |  1.507930e-09 |  1.507935e-09 |  1.000000e+00 | 
+
+*** SIMULATION LOOP NO. 47 (starting at time 2.300) ***
+sqp it | qp its |       kkt tol |       obj val |     merit val |      ls param | 
+     1 |      0 |  2.187982e-15 |  1.192703e-09 |  1.192706e-09 |  1.000000e+00 | 
+     2 |      0 |  4.064322e-15 |  1.173314e-09 |  1.173318e-09 |  1.000000e+00 | 
+
+*** SIMULATION LOOP NO. 48 (starting at time 2.350) ***
+sqp it | qp its |       kkt tol |       obj val |     merit val |      ls param | 
+     1 |      0 |  1.966453e-15 |  9.280726e-10 |  9.280749e-10 |  1.000000e+00 | 
+     2 |      0 |  3.111562e-15 |  9.129728e-10 |  9.129765e-10 |  1.000000e+00 | 
+
+*** SIMULATION LOOP NO. 49 (starting at time 2.400) ***
+sqp it | qp its |       kkt tol |       obj val |     merit val |      ls param | 
+     1 |      0 |  2.285438e-15 |  7.221758e-10 |  7.221786e-10 |  1.000000e+00 | 
+     2 |      0 |  3.919681e-15 |  7.104147e-10 |  7.104194e-10 |  1.000000e+00 | 
+
+*** SIMULATION LOOP NO. 50 (starting at time 2.450) ***
+sqp it | qp its |       kkt tol |       obj val |     merit val |      ls param | 
+     1 |      0 |  2.315114e-15 |  5.619719e-10 |  5.619747e-10 |  1.000000e+00 | 
+     2 |      0 |  2.511921e-15 |  5.528131e-10 |  5.528161e-10 |  1.000000e+00 | 
+
+*** SIMULATION LOOP NO. 51 (starting at time 2.500) ***
+sqp it | qp its |       kkt tol |       obj val |     merit val |      ls param | 
+     1 |      0 |  1.539469e-15 |  4.373200e-10 |  4.373218e-10 |  1.000000e+00 | 
+     2 |      0 |  2.971951e-15 |  4.301867e-10 |  4.301902e-10 |  1.000000e+00 | 
+
+*** SIMULATION LOOP NO. 52 (starting at time 2.550) ***
+sqp it | qp its |       kkt tol |       obj val |     merit val |      ls param | 
+     1 |      0 |  1.419699e-15 |  3.403257e-10 |  3.403274e-10 |  1.000000e+00 | 
+     2 |      0 |  3.448040e-15 |  3.347701e-10 |  3.347743e-10 |  1.000000e+00 | 
+
+*** SIMULATION LOOP NO. 53 (starting at time 2.600) ***
+sqp it | qp its |       kkt tol |       obj val |     merit val |      ls param | 
+     1 |      0 |  1.012040e-15 |  2.648507e-10 |  2.648519e-10 |  1.000000e+00 | 
+     2 |      0 |  1.870565e-15 |  2.605230e-10 |  2.605253e-10 |  1.000000e+00 | 
+
+*** SIMULATION LOOP NO. 54 (starting at time 2.650) ***
+sqp it | qp its |       kkt tol |       obj val |     merit val |      ls param | 
+     1 |      0 |  1.042229e-15 |  2.061209e-10 |  2.061221e-10 |  1.000000e+00 | 
+     2 |      0 |  1.172203e-15 |  2.027500e-10 |  2.027514e-10 |  1.000000e+00 | 
+
+*** SIMULATION LOOP NO. 55 (starting at time 2.700) ***
+sqp it | qp its |       kkt tol |       obj val |     merit val |      ls param | 
+     1 |      0 |  7.092750e-16 |  1.604187e-10 |  1.604195e-10 |  1.000000e+00 | 
+     2 |      0 |  1.026167e-15 |  1.577923e-10 |  1.577935e-10 |  1.000000e+00 | 
+
+*** SIMULATION LOOP NO. 56 (starting at time 2.750) ***
+sqp it | qp its |       kkt tol |       obj val |     merit val |      ls param | 
+     1 |      0 |  5.586293e-16 |  1.248537e-10 |  1.248544e-10 |  1.000000e+00 | 
+     2 |      0 |  1.449105e-15 |  1.228078e-10 |  1.228096e-10 |  1.000000e+00 | 
+
+*** SIMULATION LOOP NO. 57 (starting at time 2.800) ***
+sqp it | qp its |       kkt tol |       obj val |     merit val |      ls param | 
+     1 |      0 |  8.733400e-16 |  9.717818e-11 |  9.717923e-11 |  1.000000e+00 | 
+     2 |      0 |  1.189771e-15 |  9.558352e-11 |  9.558495e-11 |  1.000000e+00 | 
+
+*** SIMULATION LOOP NO. 58 (starting at time 2.850) ***
+sqp it | qp its |       kkt tol |       obj val |     merit val |      ls param | 
+     1 |      0 |  5.207001e-16 |  7.563987e-11 |  7.564049e-11 |  1.000000e+00 | 
+     2 |      0 |  8.987441e-16 |  7.439716e-11 |  7.439823e-11 |  1.000000e+00 | 
+
+*** SIMULATION LOOP NO. 59 (starting at time 2.900) ***
+sqp it | qp its |       kkt tol |       obj val |     merit val |      ls param | 
+     1 |      0 |  8.037432e-16 |  5.887783e-11 |  5.887880e-11 |  1.000000e+00 | 
+     2 |      0 |  1.236033e-15 |  5.790968e-11 |  5.791116e-11 |  1.000000e+00 | 
+
+*** SIMULATION LOOP NO. 60 (starting at time 2.950) ***
+sqp it | qp its |       kkt tol |       obj val |     merit val |      ls param | 
+     1 |      0 |  4.884790e-16 |  4.583312e-11 |  4.583370e-11 |  1.000000e+00 | 
+     2 |      0 |  9.999696e-16 |  4.507942e-11 |  4.508062e-11 |  1.000000e+00 | 
+
+*** SIMULATION LOOP NO. 61 (starting at time 3.000) ***
+sqp it | qp its |       kkt tol |       obj val |     merit val |      ls param | 
+     1 |      0 |  5.441571e-16 |  3.568315e-11 |  3.568380e-11 |  1.000000e+00 | 
+     2 |      0 |  1.043649e-15 |  3.509374e-11 |  3.509499e-11 |  1.000000e+00 | 
