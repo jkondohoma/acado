@@ -3,6 +3,8 @@
 !*.cpp
 !*.txt
 
+.DS_Store
+
 results*.txt
 ref*.txt
 output*.txt
