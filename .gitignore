@@ -27,7 +27,7 @@ doc/debug.txt
 
 *.log
 
-*.pdf
+# *.pdf
 *.xml
 *.out
 *.orig
