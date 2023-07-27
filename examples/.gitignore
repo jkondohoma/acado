@@ -22,7 +22,7 @@ refOutput*.txt
 !basic_data_structures/matrix_vector
 !basic_data_structures/symbolics
 !basic_data_structures/variables_grid
-#!getting_started
+!getting_started
 !multi_objective
 !parameter_estimation
 !validated_integrator
