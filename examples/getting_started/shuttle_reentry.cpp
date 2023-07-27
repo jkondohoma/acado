@@ -65,8 +65,8 @@ int main()
     double g = 32.174;   // acceleration (ft/sec^2)
     double m = w / g;    // mass (slug)
 
-    double q = q_a * q_r;
-    double q_U = 70;
+    // double q = q_a * q_r;
+    // double q_U = 70;
 
     //  -------------------------------------
     OCP ocp(0.0, T);             // time horizon of the OCP: [0,T]
@@ -99,7 +99,7 @@ int main()
     ocp.subjectTo(-80 <= theta <= 89);
     ocp.subjectTo(-80 <= y <= 89);
     ocp.subjectTo(-80 <= beta <= 89);
-    ocp.subjectTo(q <= q_U);
+    // ocp.subjectTo(q <= q_U);
     //  -------------------------------------
 
     GnuplotWindow window;
