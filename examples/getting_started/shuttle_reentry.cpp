@@ -18,6 +18,7 @@ int main()
     Control alpha, beta, q;                     // the control inputs
     Parameter T;                                // the time horizon T
     DifferentialEquation f(0.0, T);             // the differential equation
+    
 
     // Initial conditions
     double h_s = 260000;
