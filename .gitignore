@@ -8,6 +8,7 @@ Release
 
 CMake*
 !CMakeLists.txt
+!simple_opc_results.pdf
 
 doc/html
 doc/XML
