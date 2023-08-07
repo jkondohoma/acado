@@ -57,14 +57,14 @@ int main( ){
     ocp.subjectTo( f                   );     // minimize T s.t. the model,
     ocp.subjectTo( AT_START, s ==  0.0 );     // the initial values for s,
     ocp.subjectTo( AT_START, v ==  0.0 );     // bv,
-    ocp.subjectTo( AT_START, m ==  1.0 );     // and m,
+    ocp.subjectTo( AT_START, m == 3.0 );     // and m,
 
-    ocp.subjectTo( AT_END  , s == 10.0 );     // the terminal constraints for s
+    ocp.subjectTo( AT_END  , s == 40.0 );     // the terminal constraints for s
     ocp.subjectTo( AT_END  , v ==  0.0 );     // and v,
 
     ocp.subjectTo( -0.1 <= v <=  1.7   );     // as well as the bounds on v
     ocp.subjectTo( -1.1 <= u <=  1.1   );     // the control input u,
-    ocp.subjectTo(  5.0 <= T <= 15.0   );     // and the time horizon T.
+    ocp.subjectTo(  5.0 <= T <= 60.0   );     // and the time horizon T.
 //  -------------------------------------
 
     GnuplotWindow window;
@@ -75,7 +75,9 @@ int main( ){
 
     OptimizationAlgorithm algorithm(ocp);     // the optimization algorithm
     algorithm << window;
+    const clock_t begin_time = clock();
     algorithm.solve();                        // solves the problem.
+    std::cout << float( clock () - begin_time ) /  CLOCKS_PER_SEC;
 
 
     return 0;

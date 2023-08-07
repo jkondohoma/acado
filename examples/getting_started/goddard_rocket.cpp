@@ -23,60 +23,68 @@
  *
  */
 
-
-
- /**
+/**
  *    \file   examples/getting_started/simple_ocp.cpp
  *    \author Boris Houska, Hans Joachim Ferreau
  *    \date   2009
  */
 
-
 #include <acado_toolkit.hpp>
 #include <acado_gnuplot.hpp>
 
-
-int main( ){
+int main()
+{
 
     USING_NAMESPACE_ACADO
 
+    DifferentialState h, v, m;      // the differential states
+    Control T;                      // the control input u (thrust)
+    Parameter t;                    // the time horizon t
+    DifferentialEquation f(0.0, t); // the differential equation
 
-    DifferentialState        s,v,m      ;     // the differential states
-    Control                  u          ;     // the control input u
-    Parameter                T          ;     // the time horizon T
-    DifferentialEquation     f( 0.0, T );     // the differential equation
+    //  -------------------------------------
+    OCP ocp(0.0, t);          // time horizon of the OCP: [0,y]
+    ocp.maximizeMayerTerm(t); // the time T should be optimized
 
-//  -------------------------------------
-    OCP ocp( 0.0, T );                        // time horizon of the OCP: [0,T]
-    ocp.minimizeMayerTerm( T );               // the time T should be optimized
+    double h_0 = 1; // Initial height
+    double v_0 = 0; // Initial velocity
+    double m_0 = 1; // Initial mass
+    double g_0 = 1; // Gravity at the surface
+    double v_c = 620;
+    double T_c = 3.5;
+    double T_max = T_c * g_0 * m_0;
+    double h_c = 500;
 
-    f << dot(s) == v;                         // an implementation
-    f << dot(v) == (u-0.2*v*v)/m;             // of the model equations
-    f << dot(m) == -0.01*u*u;                 // for the rocket.
+    double D_c = 0.5 * v_c * m_0 / g_0;
+    // double D_h_v = D_c * exp(-h_c*((h-h_0)/h_0));
+    // double g_h = g_0*pow(h_0/h,2);
+    double c = 0.5 * sqrt(g_0 * h_0);  //Thrust-to-fuel mass
 
-    ocp.subjectTo( f                   );     // minimize T s.t. the model,
-    ocp.subjectTo( AT_START, s ==  0.0 );     // the initial values for s,
-    ocp.subjectTo( AT_START, v ==  0.0 );     // bv,
-    ocp.subjectTo( AT_START, m ==  1.0 );     // and m,
+    f << dot(h) == v;                                                                           // an implementation
+    f << dot(v) == ((T - (D_c * exp(-h_c * ((h - h_0) / h_0)))) / m) - (g_0 * pow(h_0 / h, 2)); // of the model equations
+    f << dot(m) == -T/c;                                                               // for the rocket.
 
-    ocp.subjectTo( AT_END  , s == 10.0 );     // the terminal constraints for s
-    ocp.subjectTo( AT_END  , v ==  0.0 );     // and v,
+    ocp.subjectTo(f);                  // maximize t s.t. the model,
+    ocp.subjectTo(AT_START, h == h_0); // the initial values for s,
+    ocp.subjectTo(AT_START, v == v_0); // bv,
+    ocp.subjectTo(AT_START, m == m_0); // and m,
+    ocp.subjectTo(AT_START, T == T_max);
 
-    ocp.subjectTo( -0.1 <= v <=  1.7   );     // as well as the bounds on v
-    ocp.subjectTo( -1.1 <= u <=  1.1   );     // the control input u,
-    ocp.subjectTo(  5.0 <= T <= 15.0   );     // and the time horizon T.
-//  -------------------------------------
+    ocp.subjectTo(AT_END, T == 0); // the terminal constraints for s
+
+    ocp.subjectTo(0 <= T <= T_max); // the control input u,
+
+    //  -------------------------------------
 
     GnuplotWindow window;
-        window.addSubplot( s, "THE DISTANCE s"      );
-        window.addSubplot( v, "THE VELOCITY v"      );
-        window.addSubplot( m, "THE MASS m"          );
-        window.addSubplot( u, "THE CONTROL INPUT u" );
+    window.addSubplot(h, "THE ALTITUDE s");
+    window.addSubplot(v, "THE VELOCITY v");
+    window.addSubplot(m, "THE MASS m");
+    window.addSubplot(T, "THE THRUST T");
 
-    OptimizationAlgorithm algorithm(ocp);     // the optimization algorithm
+    OptimizationAlgorithm algorithm(ocp); // the optimization algorithm
     algorithm << window;
-    algorithm.solve();                        // solves the problem.
-
+    algorithm.solve(); // solves the problem.
 
     return 0;
 }
