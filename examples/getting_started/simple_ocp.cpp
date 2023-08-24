@@ -35,6 +35,8 @@ int main() {
 
     //Boundary Conditions
     ocp.subjectTo(((x1*x1) - 8) * ((T-0.5) * (T-0.5)) <= 0);
+    // ocp.subjectTo(x1 - 8 <= 0);
+
 
     
 
@@ -48,6 +50,15 @@ int main() {
     // Display the results
     OptimizationAlgorithm algorithm(ocp);
     algorithm << window;
+
+
+    //modify settings
+    // OptionsName INTEGRATOR_TYPE, INTEGRATOR_TOLERANCE, DISCRETIZATION_TYPE, KKTtolerance;
+    algorithm.set(INTEGRATOR_TYPE,"INT_RK78" );
+    algorithm.set(INTEGRATOR_TOLERANCE,"1e-8" );
+    algorithm.set(DISCRETIZATION_TYPE,"SINGLE_SHOOTING" );
+    algorithm.set(KKT_TOLERANCE,"1e-4" );
+    
 
     const clock_t begin_time = clock();
     algorithm.solve();  // solves the problem.
