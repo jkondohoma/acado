@@ -16,12 +16,13 @@ int main() {
 
     // Create an optimal control problem
      OCP ocp( 0.0, T );   // time horizon of the OCP: [0,T]
-     ocp.minimizeMayerTerm(x3);
+     ocp.minimizeMayerTerm(T);
 
     // Dynamics constraints
     f << dot(x1) == x2;
     f << dot(x2) == -x2 + u;
-    f << dot(x3) == (x1*x1) + (x2*x2) + (0.005*(u*u));
+    f << dot(x3) == (x1*x1) + (x2) + (0.005*(u));
+    // f << dot(x3) == (x1*x1) + (x2*x2) + (0.005*(u*u));
 
     // Initial conditions
     ocp.subjectTo( f ); 
@@ -34,8 +35,9 @@ int main() {
 
 
     //Boundary Conditions
-    ocp.subjectTo(((x1*x1) - 8) * ((T-0.5) * (T-0.5)) <= 0);
-    // ocp.subjectTo(x1 - 8 <= 0);
+    // ocp.subjectTo(2 <= T);
+   //ocp.subjectTo((x2 - 8) * ((T-0.5) * (T-0.5)) <= 0);
+    ocp.subjectTo(x1 <= 0);
 
 
     
@@ -53,11 +55,15 @@ int main() {
 
 
     //modify settings
-    // OptionsName INTEGRATOR_TYPE, INTEGRATOR_TOLERANCE, DISCRETIZATION_TYPE, KKTtolerance;
-    algorithm.set(INTEGRATOR_TYPE,"INT_RK78" );
-    algorithm.set(INTEGRATOR_TOLERANCE,"1e-8" );
-    algorithm.set(DISCRETIZATION_TYPE,"SINGLE_SHOOTING" );
-    algorithm.set(KKT_TOLERANCE,"1e-4" );
+   // OptionsName INTEGRATOR_TYPE, INTEGRATOR_TOLERANCE, DiscretizationType, KKTtolerance;
+    // algorithm.set(INITIAL_INTEGRATOR_STEPSIZE,1e10 );
+    // algorithm.set(MIN_INTEGRATOR_STEPSIZE, 1e50 );
+    // algorithm.set(KKT_TOLERANCE, 0.1 );
+    algorithm.set(MAX_NUM_ITERATIONS, 10000 );
+    algorithm.set(INTEGRATOR_TOLERANCE,1e-4 );
+    algorithm.set(HESSIAN_APPROXIMATION, FULL_BFGS_UPDATE);
+    algorithm.set(DISCRETIZATION_TYPE, MULTIPLE_SHOOTING);
+    algorithm.set(INTEGRATOR_TYPE, INT_BDF);
     
 
     const clock_t begin_time = clock();
